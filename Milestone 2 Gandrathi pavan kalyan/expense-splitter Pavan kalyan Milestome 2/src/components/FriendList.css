@@ -1,0 +1,20 @@
+.friend-list {
+    padding: 20px;
+  }
+  
+  .friend-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .friend-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .friend-list input, .friend-list button {
+    margin: 5px;
+    padding: 8px;
+  }

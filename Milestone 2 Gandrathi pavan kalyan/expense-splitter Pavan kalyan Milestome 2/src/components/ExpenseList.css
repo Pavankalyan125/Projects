@@ -1,0 +1,19 @@
+.expense-list {
+    padding: 20px;
+  }
+  
+  .expense-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .expense-list li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .expense-list input, .expense-list select, .expense-list button {
+    margin: 5px;
+    padding: 8px;
+  }
+  
