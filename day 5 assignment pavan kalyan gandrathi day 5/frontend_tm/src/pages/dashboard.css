@@ -1,0 +1,61 @@
+/* Dashboard Page Styling */
+.dashboard-container {
+    background: linear-gradient(135deg, #11998e, #38ef7d);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .add-task-btn {
+    background: #ff9800;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .add-task-btn:hover {
+    background: #e65100;
+  }
+  
+  .task-list {
+    margin-top: 20px;
+  }
+  
+  .task-item {
+    background: white;
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .delete-btn {
+    background: #e74c3c;
+    border: none;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .delete-btn:hover {
+    background: #c0392b;
+  }
+  
