@@ -1,0 +1,30 @@
+/* src/components/NoteItem.css */
+.note {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .note p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .note .delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .note .delete-btn:hover {
+    background: darkred;
+  }

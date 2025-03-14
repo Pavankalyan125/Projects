@@ -1,0 +1,64 @@
+/* Default styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Light Theme */
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark Theme */
+.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.app-container {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.note-form input {
+  width: 70%;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.note-item {
+  background: #f3f3f3;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.dark .note-item {
+  background: #333;
+}
+
+.theme-toggle {
+  margin-bottom: 10px;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.light .theme-toggle {
+  background-color: #000;
+  color: #fff;
+}
+
+.dark .theme-toggle {
+  background-color: #fff;
+  color: #000;
+}
+
