@@ -1,0 +1,13 @@
+.summary-container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #6b46c1, #3182ce);
+    color: white;
+    padding: 20px;
+  }
+  
+  .summary-box {
+    background: rgba(75, 0, 130, 0.8); /* Dark purple */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
